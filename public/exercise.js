@@ -116,11 +116,13 @@ async function handleFormSubmit(event) {
 
   await API.addExercise(workoutData);
   clearInputs();
+  console.log("concerned");
   toast.classList.add("success");
 }
 
 function handleToastAnimationEnd() {
   toast.removeAttribute("class");
+  console.log("complete trying");
   if (shouldNavigateAway) {
     location.href = "/";
   }
