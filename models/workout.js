@@ -40,7 +40,7 @@ const workoutSchema = new Schema({
         required: "Enter distance of exercise",
       }
     }
-  ]
+  ] 
 });
 
 const Workouts = mongoose.model("Workout", workoutSchema);
