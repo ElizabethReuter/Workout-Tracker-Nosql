@@ -33,7 +33,6 @@ router.put("/api/addExercise/:id", (req, res) => {
 // View the combined weight of multiple exercises on stats page
 router.get("/api/workouts/range", (req, res) => {
     Workouts.find({})
-    // .sort()
     .then(dbTransaction => {
       console.log("?????");
       res.json(dbTransaction);
