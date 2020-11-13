@@ -20,22 +20,20 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 ## Features
 A consumer will reach their fitness goals more quickly when they track their workout progress.
 
-    * Add exercises to a previous workout plan.
-
-    * Add new exercises to a new workout plan.
-
-    * View the combined weight of multiple exercises on the `stats` page.
+*Add exercises to a previous workout plan.
+*Add new exercises to a new workout plan.
+*View the combined weight of multiple exercises on the `stats` page.
 
 
 ## Installation
-    *npm i express
 
-    *npm i mongoose
+*npm i express
+*npm i mongoose
 
 
 ## Credits
-Elizabeth Reuter and Sarah Cox
+Elizabeth Reuter, Sarah Cox and Zachary Smelcer
 
 
 ## License
-MIT © [Elizabeth Reuter]()
+MIT
